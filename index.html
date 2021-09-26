@@ -1,0 +1,108 @@
+<html>
+<head>
+    <!--<title>Pompiers du Nouveau-Brunswick 50/50</title>-->
+    <title>New Brunswick Firefighters 50/50</title>
+    <link rel="stylesheet" href="firefighters.css">
+    <script src="https://unpkg.com/react@16/umd/react.production.min.js"></script> 
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+
+    <!--https://api.rafflebox.ca/goldrush-service/ticker/salisburyfire-->
+</head>
+
+<script type="text/babel">
+
+    class FDJackpot extends React.Component {
+        state = {
+            jackpot: []
+        }
+        
+        //Loads the json data now that I switched to react
+        componentDidMount() {
+            fetch('https://api.rafflebox.ca/goldrush-service/ticker/salisburyfire')
+            .then((response) => response.json())
+            .then(jp => {
+                console.log(jp)
+                this.setState({ jackpot: jp.data });            
+                //this.setState({ students: classroom.students });
+            
+            });
+        }
+
+        render() {
+            
+            return (
+                <div>
+                    <div id="jackpot_title">This Weeks 50/50 Jackpot<br/>Draw #{this.state.jackpot.drawNum}</div>
+                    <div id="jackpot_amt_container"><div id="jackpot_amt">${this.state.jackpot.jackpotDollars}</div></div>
+                </div>
+            )
+        }
+    }
+
+    class PastWinner extends React.Component {
+
+        state = {
+            jackpot: []
+        }
+        
+        //Loads the json data now that I switched to react
+        componentDidMount() {
+            fetch('https://api.rafflebox.ca/goldrush-service/ticker/salisburyfire')
+            .then((response) => response.json())
+            .then(jp => {
+                console.log(jp)
+                this.setState({ jackpot: jp.data });            
+                //this.setState({ students: classroom.students });
+            
+            });
+        }
+       render() {
+            
+            return (
+                <div id="LD_Container">
+                    <div id="LD_Title">Last Draw</div>
+                    <div id="LD_Results" className={(this.state.jackpot.previousTicketActive? 'LD_Winner' : 'LD_NonWinner')}>{this.state.jackpot.previousTicketActive?'Winner':'Non-Winner'}</div>
+                    <div id="LD_Winner">{this.state.jackpot.previousWinnerName}</div>
+                    <div id="LD_AMT">${Math.round(this.state.jackpot.previousJackpotDollars/2)}</div>
+                    <div id="LD_TX">Ticket #{this.state.jackpot.previousWinnerTicketNumber}</div>
+                
+                </div>
+            )
+        }
+    }
+    //Calls FDJackpot Reder and enters it in the div "jackpot"
+   ReactDOM.render(<FDJackpot />, document.getElementById('jackpot'));
+   ReactDOM.render(<PastWinner />, document.getElementById('jp_results'));
+</script>
+<body>
+    <div id="container">
+        <div>
+            <div id="banner">
+                <img id="banner_img" src="images/Facebook banner.jpg">
+            </div>
+            <div id="jp_results">blah</div>
+        </div>
+        <div id="jackpot">
+            Empty
+        </div>
+        <div id="rules">
+            <div id="rules_title">Weekly Online 50/50 Raffle Rules</div>
+            <div id="rules_instructions">
+                <UL>
+                    <LI>The draw will be held Wednesday's at 8:00PM.</LI>
+                    <LI>Payers must be a resident of New Brunswick and at least 19 years of age to purchase.</LI>
+                    <LI>There are no restructions regarding the purchase of tickets by members of any sponsoring organization or their families.</LI>
+                    <LI>There is no minimum number of tickets that must be sold</LI>
+                    <LI>Only 1 winning ticket number will be produced.</LI>
+                    <LI>The winning prize will be a cash prize equal to 50% of the gross sales.</LI>
+                    <LI>if the winner cannot be located after 90 days and all attempts to locate have failed, then another winner will be drawn at that time in a second draw.</LI>
+                </UL>
+                <div id="rules_logo_container">Presented by:<br><img id="rules_logo" src="images/SFD_Logo.jpg"></div>
+            </div>
+            
+        </div>
+    </div>
+</body>
+
+</html>
