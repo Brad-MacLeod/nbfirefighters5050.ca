@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/nbfirefighters5050.ca/static/css/main.a617e044.chunk.css",
-    "main.js": "/nbfirefighters5050.ca/static/js/main.75d12dd1.chunk.js",
-    "main.js.map": "/nbfirefighters5050.ca/static/js/main.75d12dd1.chunk.js.map",
-    "runtime-main.js": "/nbfirefighters5050.ca/static/js/runtime-main.f42af2ee.js",
-    "runtime-main.js.map": "/nbfirefighters5050.ca/static/js/runtime-main.f42af2ee.js.map",
-    "static/js/2.281ab820.chunk.js": "/nbfirefighters5050.ca/static/js/2.281ab820.chunk.js",
-    "static/js/2.281ab820.chunk.js.map": "/nbfirefighters5050.ca/static/js/2.281ab820.chunk.js.map",
-    "static/js/3.e2d73a1a.chunk.js": "/nbfirefighters5050.ca/static/js/3.e2d73a1a.chunk.js",
-    "static/js/3.e2d73a1a.chunk.js.map": "/nbfirefighters5050.ca/static/js/3.e2d73a1a.chunk.js.map",
+    "main.css": "/nbfirefighters5050.ca/static/css/main.7d179f38.chunk.css",
+    "main.js": "/nbfirefighters5050.ca/static/js/main.9d1ced83.chunk.js",
+    "main.js.map": "/nbfirefighters5050.ca/static/js/main.9d1ced83.chunk.js.map",
+    "runtime-main.js": "/nbfirefighters5050.ca/static/js/runtime-main.b1e83757.js",
+    "runtime-main.js.map": "/nbfirefighters5050.ca/static/js/runtime-main.b1e83757.js.map",
+    "static/js/2.4950c728.chunk.js": "/nbfirefighters5050.ca/static/js/2.4950c728.chunk.js",
+    "static/js/2.4950c728.chunk.js.map": "/nbfirefighters5050.ca/static/js/2.4950c728.chunk.js.map",
+    "static/js/3.8ac3a3a2.chunk.js": "/nbfirefighters5050.ca/static/js/3.8ac3a3a2.chunk.js",
+    "static/js/3.8ac3a3a2.chunk.js.map": "/nbfirefighters5050.ca/static/js/3.8ac3a3a2.chunk.js.map",
     "index.html": "/nbfirefighters5050.ca/index.html",
-    "static/css/main.a617e044.chunk.css.map": "/nbfirefighters5050.ca/static/css/main.a617e044.chunk.css.map",
-    "static/js/2.281ab820.chunk.js.LICENSE.txt": "/nbfirefighters5050.ca/static/js/2.281ab820.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/nbfirefighters5050.ca/static/media/logo.6ce24c58.svg"
+    "static/css/main.7d179f38.chunk.css.map": "/nbfirefighters5050.ca/static/css/main.7d179f38.chunk.css.map",
+    "static/js/2.4950c728.chunk.js.LICENSE.txt": "/nbfirefighters5050.ca/static/js/2.4950c728.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.f42af2ee.js",
-    "static/js/2.281ab820.chunk.js",
-    "static/css/main.a617e044.chunk.css",
-    "static/js/main.75d12dd1.chunk.js"
+    "static/js/runtime-main.b1e83757.js",
+    "static/js/2.4950c728.chunk.js",
+    "static/css/main.7d179f38.chunk.css",
+    "static/js/main.9d1ced83.chunk.js"
   ]
 }
