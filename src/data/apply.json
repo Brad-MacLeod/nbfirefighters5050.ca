@@ -1,0 +1,61 @@
+{
+    "text": [  {
+        "lang":"en",
+        "title":"AGREEMENT with Salisbury Firefighters Association Inc (SFA) - October 2021",
+        "name": "Department/Agency/Organization",
+        "mail": "Mailing Address",
+        "facebook": "Agency Facebook Page Name",
+        "contact": [
+            {
+                "name": "Primary Contact",
+                "title": "Title",
+                "phone": "Phone",
+                "email": "eMail"
+            },
+            {
+                "name": "Secondary Contact",
+                "title": "Title",
+                "phone": "Phone",
+                "email": "eMail"
+            }
+        ],
+        "rules": "Terms and Conditions",
+        "terms": [
+            { "rule": "The SFA agrees to pay the above organization 36% of this organization’s weekly gross sales toward the group jackpot.  Payments will be mailed to the address above at the end of each quarter." },
+            { "rule": "The SFA reserves the right to change the percentage above should user fees dictate within 30 days notice to the participating organizations." },
+            { "rule": "Under the provincial licensing rules, there are no restrictions as to who can purchase tickets (i.e. members and families)  EXCEPT all tickets can only be bought by New Brunswick residents." },
+            { "rule": "All lottery rules and policies must be strictly adhered to." },
+            { "rule": "The SFA will contact all winners and pay all prizes.   The participating organizations are responsible for their own advertising.  All organizations shall maintain an active Facebook page." }            
+        ]        
+    }, 
+    {
+        "lang":"fr",
+        "title":"ACCORD avec Salisbury Firefighters Association Inc (SFA) – octobre 2021",
+        "name": "Nom du ministère/agence/organisation",
+        "mail": "Adresse postale",
+        "facebook": "Nom de la page Facebook de l'agence",
+        "contact": [
+            {
+                "name": "Contact principal",
+                "title": "Titre",
+                "phone": "Téléphone",
+                "email": "courriel"
+            },
+            {
+                "name": "Contact secondaire",
+                "title": "Titre",
+                "phone": "Téléphone",
+                "email": "courriel"
+            }
+        ],
+        "rules": "Terms and Conditions",
+        "terms": [
+            { "rule": "La SFA s'engage à verser à l'organisation ci-dessus 36 % des ventes brutes hebdomadaires de cette organisation pour le jackpot de groupe. Les paiements seront postés à l'adresse ci-dessus à la fin de chaque trimestre." },
+            { "rule": "La SFA se réserve le droit de modifier le pourcentage ci-dessus si les frais d'utilisation l'exigent dans un délai de 30 jours à l'avance aux organisations participantes." },
+            { "rule": "En vertu des règles provinciales sur les licences, il n'y a aucune restriction quant à qui peut acheter des billets (c.-à-d. les membres et les familles) SAUF tous les billets ne peuvent être achetés que par les résidents du Nouveau-Brunswick." },
+            { "rule": "Toutes les règles et politiques de loterie doivent être strictement respectées." },
+            { "rule": "La SFA contactera tous les gagnants et paiera tous les prix. Les organisations participantes sont responsables de leur propre publicité. Toutes les organisations doivent maintenir une page Facebook active." }            
+        ] 
+    }]
+
+}
